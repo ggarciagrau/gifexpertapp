@@ -1,0 +1,9 @@
+yarn add --dev jest babel-jest @babel/preset-env @babel/preset-react 
+yarn add --dev @testing-library/react @types/jest jest-environment-jsdom
+yarn add --dev whatwg-fetch
+- Babel config file
+- Jest config file
+- Jest setup file
+
+Remove: "type": "module" from package.json
+https://stackoverflow.com/questions/71321728/this-file-is-being-treated-as-an-es-module-because-it-has-a-js-file-extension
