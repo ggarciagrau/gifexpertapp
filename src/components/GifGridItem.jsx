@@ -14,5 +14,5 @@ export const GifGridItem = ({title, url, id}) => {
 GifGridItem.propTypes = {
     title: PropTypes.string.isRequired,
     url: PropTypes.string.isRequired,
-    id: PropTypes.number
+    id: PropTypes.string
 }
