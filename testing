@@ -1,6 +1,6 @@
 yarn add --dev jest babel-jest @babel/preset-env @babel/preset-react 
 yarn add --dev @testing-library/react @types/jest jest-environment-jsdom
-yarn add --dev whatwg-fetch
+when using fetch api: yarn add --dev whatwg-fetch
 - Babel config file
 - Jest config file
 - Jest setup file
