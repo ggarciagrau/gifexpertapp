@@ -7,7 +7,7 @@ exports[`GifGridItem tests Renders 1`] = `
   >
     <img
       alt="Google"
-      src="https://google.es"
+      src="https://google.es/"
     />
     <p>
       Google

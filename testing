@@ -7,3 +7,5 @@ when using fetch api: yarn add --dev whatwg-fetch
 
 Remove: "type": "module" from package.json
 https://stackoverflow.com/questions/71321728/this-file-is-being-treated-as-an-es-module-because-it-has-a-js-file-extension
+
+screen.debug() -> displays html
