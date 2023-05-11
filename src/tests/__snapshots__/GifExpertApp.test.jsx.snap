@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GifExpertApp tests Initial render 1`] = `
+<div>
+  <h1>
+    GifExpertApp
+  </h1>
+  <div>
+    <form
+      aria-label="form"
+    >
+      <input
+        placeholder="Search gifs..."
+        type="text"
+        value=""
+      />
+    </form>
+  </div>
+  <h3>
+    Dogo
+  </h3>
+  <h2>
+    Cargando...
+  </h2>
+  <div
+    class="card-grid"
+  />
+</div>
+`;
+
+exports[`GifExpertApp tests Must add category 1`] = `
+<div>
+  <h1>
+    GifExpertApp
+  </h1>
+  <div>
+    <form
+      aria-label="form"
+    >
+      <input
+        placeholder="Search gifs..."
+        type="text"
+        value=""
+      />
+    </form>
+  </div>
+  <h3>
+    Birbo
+  </h3>
+  <h2>
+    Cargando...
+  </h2>
+  <div
+    class="card-grid"
+  />
+  <h3>
+    Dogo
+  </h3>
+  <h2>
+    Cargando...
+  </h2>
+  <div
+    class="card-grid"
+  />
+</div>
+`;
+
+exports[`GifExpertApp tests Mustn't add repeated category 1`] = `
+<div>
+  <h1>
+    GifExpertApp
+  </h1>
+  <div>
+    <form
+      aria-label="form"
+    >
+      <input
+        placeholder="Search gifs..."
+        type="text"
+        value=""
+      />
+    </form>
+  </div>
+  <h3>
+    Dogo
+  </h3>
+  <h2>
+    Cargando...
+  </h2>
+  <div
+    class="card-grid"
+  />
+</div>
+`;
