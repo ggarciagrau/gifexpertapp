@@ -3,13 +3,16 @@ import { render } from "@testing-library/react";
 
 describe("GifGridItem tests", () => {
 
-    const container = render(
-        <GifGridItem
-            title="Google"
-            url="https://google.es"
-        />);
+    const title = "Google";
+    const url = "https://google.es";
 
     test("Renders", () => {
+
+        const { container } = render(
+            <GifGridItem
+                title="Google"
+                url="https://google.es"
+            />);
 
         expect(container).toMatchSnapshot();
     });
