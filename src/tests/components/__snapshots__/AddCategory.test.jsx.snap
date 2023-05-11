@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddCategory tests Renders 1`] = `
+<div>
+  <div>
+    <form
+      aria-label="form"
+    >
+      <input
+        placeholder="Search gifs..."
+        type="text"
+        value=""
+      />
+    </form>
+  </div>
+</div>
+`;
